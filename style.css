@@ -1,0 +1,40 @@
+.box2 {
+    height: 450px;
+    width: 600px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    /* padding: 10px ; */
+    font-size: large;
+    border-radius: 10px;
+    background-color: rgba(110, 109, 110, 0.1);
+}
+.box2 h1 {
+    text-align: center;
+}
+input {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+label {
+    font-size: larger;
+}
+button {
+    padding: 10px;
+    font-size: large;
+    font-weight: 700;
+    width: 420px;
+    background-color: rgba(91, 184, 91, 0.925);
+}
+button:hover{
+    font-weight: 800;
+    border: #004801;
+}
+#op {
+    margin-top: 20px;
+    font-size: larger;
+}
